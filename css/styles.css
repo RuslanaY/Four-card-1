@@ -1,0 +1,137 @@
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins" sans-serif;
+}
+
+.flx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.header {
+  width: 540px;
+  height: 168px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 64px;
+  text-align: center;
+
+  h2 {
+    font-style: normal;
+    font-weight: 275;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+    color: #4D4F62;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #4D4F62;
+  margin-bottom: 13px;
+}
+
+section {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  column-gap: 30px;
+  row-gap: 30px;
+
+  h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    width: 286px;
+  }
+}
+
+.container {
+  width: 350px;
+  height: 250px;
+  padding-top: 32px;
+  padding-left: 32px;
+  background: white;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.first {
+  border-top: 4px solid #44D3D2;
+  position: relative;
+}
+
+.second {
+  border-top: 4px solid #EA5454;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.third {
+  border-top: 4px solid #FCAE4A;
+  position: relative;
+}
+
+.fourth {
+  border-top: 4px solid #549EF2;
+  position: relative;
+}
+
+img {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
